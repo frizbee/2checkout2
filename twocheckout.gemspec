@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.summary     = '2Checkout Ruby Library'
   s.author        = "Craig Christenson", "Ernesto Garcia"
   s.email         = 'christensoncraig@gmail.com'
-  s.homepage      = 'https://github.com/2Checkout/2checkout-ruby'
+  s.homepage      = 'https://github.com/frizbee/2checkout2.git'
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
