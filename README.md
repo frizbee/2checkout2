@@ -3,16 +3,14 @@
 
 This library provides developers with a simple set of bindings to the 2Checkout purchase routine, Instant Notification Service and Back Office API.
 
+### This is clone of https://github.com/2Checkout/2checkout-ruby
+## This version of Gem working with Rails 5
+
 To use, install the `twocheckout` gem.
 
-```shell
-gem install twocheckout
-```
-
-Or import into your Gemfile.
 
 ```ruby
-gem "twocheckout"
+gem "twocheckout", git: 'https://github.com/frizbee/2checkout2'
 ```
 
 Full documentation for each binding is provided in the **[wiki](https://github.com/2Checkout/2checkout-ruby/wiki)**.
